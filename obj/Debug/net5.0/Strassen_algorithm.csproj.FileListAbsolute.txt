@@ -1,0 +1,16 @@
+C:\Users\Egor_Kudryashov\Documents\GitHub\Strassen_algorithm\Strassen_algorithm\bin\Debug\net5.0\Strassen_algorithm.exe
+C:\Users\Egor_Kudryashov\Documents\GitHub\Strassen_algorithm\Strassen_algorithm\bin\Debug\net5.0\Strassen_algorithm.deps.json
+C:\Users\Egor_Kudryashov\Documents\GitHub\Strassen_algorithm\Strassen_algorithm\bin\Debug\net5.0\Strassen_algorithm.runtimeconfig.json
+C:\Users\Egor_Kudryashov\Documents\GitHub\Strassen_algorithm\Strassen_algorithm\bin\Debug\net5.0\Strassen_algorithm.runtimeconfig.dev.json
+C:\Users\Egor_Kudryashov\Documents\GitHub\Strassen_algorithm\Strassen_algorithm\bin\Debug\net5.0\Strassen_algorithm.dll
+C:\Users\Egor_Kudryashov\Documents\GitHub\Strassen_algorithm\Strassen_algorithm\bin\Debug\net5.0\ref\Strassen_algorithm.dll
+C:\Users\Egor_Kudryashov\Documents\GitHub\Strassen_algorithm\Strassen_algorithm\bin\Debug\net5.0\Strassen_algorithm.pdb
+C:\Users\Egor_Kudryashov\Documents\GitHub\Strassen_algorithm\Strassen_algorithm\obj\Debug\net5.0\Strassen_algorithm.csproj.AssemblyReference.cache
+C:\Users\Egor_Kudryashov\Documents\GitHub\Strassen_algorithm\Strassen_algorithm\obj\Debug\net5.0\Strassen_algorithm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Egor_Kudryashov\Documents\GitHub\Strassen_algorithm\Strassen_algorithm\obj\Debug\net5.0\Strassen_algorithm.AssemblyInfoInputs.cache
+C:\Users\Egor_Kudryashov\Documents\GitHub\Strassen_algorithm\Strassen_algorithm\obj\Debug\net5.0\Strassen_algorithm.AssemblyInfo.cs
+C:\Users\Egor_Kudryashov\Documents\GitHub\Strassen_algorithm\Strassen_algorithm\obj\Debug\net5.0\Strassen_algorithm.csproj.CoreCompileInputs.cache
+C:\Users\Egor_Kudryashov\Documents\GitHub\Strassen_algorithm\Strassen_algorithm\obj\Debug\net5.0\Strassen_algorithm.dll
+C:\Users\Egor_Kudryashov\Documents\GitHub\Strassen_algorithm\Strassen_algorithm\obj\Debug\net5.0\ref\Strassen_algorithm.dll
+C:\Users\Egor_Kudryashov\Documents\GitHub\Strassen_algorithm\Strassen_algorithm\obj\Debug\net5.0\Strassen_algorithm.pdb
+C:\Users\Egor_Kudryashov\Documents\GitHub\Strassen_algorithm\Strassen_algorithm\obj\Debug\net5.0\Strassen_algorithm.genruntimeconfig.cache
