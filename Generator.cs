@@ -7,7 +7,7 @@ namespace Strassen_algorithm
         public static int GenerateDim()
         {
             Random random = new Random();
-            int n = 64+random.Next()%959;
+            int n = 32+random.Next()%992;
             return n;
         }
 

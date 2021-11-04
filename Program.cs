@@ -113,17 +113,25 @@ namespace Strassen_algorithm
             return (CollectMatrix(n, C11, C12, C21, C22), count);
         }
 
+
+//********************************************************************************************
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
 
-            StreamWriter inFile = new StreamWriter("C:\\Users\\Egor_Kudryashov\\Documents\\GitHub\\Strassen_algorithm\\Strassen_algorithm\\results.txt");
-            for (int i = 0; i < 3; ++i)
+            //Введите путь к файлу для вывода результата
+            //string path = @"C:...\Strassen_algorithm\Strassen_algorithm\results.txt";
+            //StreamWriter inFile = new StreamWriter(path);
+
+            int collTests = 500; //Задайте количество тестов
+            for (int i = 0; i < collTests; ++i) 
             {
                 int count = 0;
                 int n = Generator.GenerateDim();
-                inFile.Write(n);
-                inFile.Write(' ');
+                //inFile.Write(n);
+                //inFile.Write(' '); //Можете осуществить вывод в файл
+                Console.Write(n);  //ИЛИ Можете осуществить вывод к консоль 
+                Console.Write(' ');
                 double[,] A = Generator.GenerateMatrix(n);
                 double[,] B = Generator.GenerateMatrix(n);
                 int N = NewDim(n);
@@ -135,28 +143,11 @@ namespace Strassen_algorithm
                 }
                 double[,] C;
                 (C, count) = StrassenAlg(A, B, n, count);
-                inFile.WriteLine(count);
-                GC.Collect();
+                //inFile.WriteLine(count);
+                Console.WriteLine(count);
+                GC.Collect(); //очистка мусора
             }
-            inFile.Close();
-
-            //PrintMatrix(n, A);
-            //PrintMatrix(n, B);
-            //PrintMatrix(n, C);
-            //PrintMatrix(n, BMO.Multiply(n, A, B));
-            /*double[,] a1 = new double[n / 2, n / 2];
-            double[,] a2 = new double[n / 2, n / 2];
-            double[,] a3 = new double[n / 2, n / 2];
-            double[,] a4 = new double[n / 2, n / 2];
-            double[,] D = new double[n, n];
-            SplitMatrix(n, A, a1, a2, a3, a4);
-            D = CollectMatrix(n/2, a1, a2, a3, a4);
-            PrintMatrix(n, D);*/
-            //PrintMatrix(n, B);
-            //PrintMatrix(n, C);
-            //double[,] D = BMO.Multiply(n, A, B);
-            //PrintMatrix(n, D);
-
+            //inFile.Close();
 
         }
     }
